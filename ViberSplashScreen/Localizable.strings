@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  VibesSplashScreen
+
+  Created by kenagt on 15. 7. 2022..
+  
+*/
+"welcome.viber" = "Welcome to Viber";
+"welcome.viber.description" = "Free messages and calls - with end-to-end encryption";
+"read.policy" = "Read our";
+"privacy.policy" = "Privacy Policy";
+"tapping.policies" = "By tapping \"Start now\" you agree to our";
+"terms.policies" = "Terms & Policies";
+"start.now" = "Start now";
+"continue" = "Continue";
+"enter.phone.number" = "Enter your phone number";
+"sms.number" = "Make sure you can receive SMS to this number so that we can send you a code";
+"viber.setup" = "Viber Setup";
+"search" = "Search";
+"choose.country" = "Choose Country";
+"cancel" = "Cancel";
+"this.your.phone.number" = "Is this your phone number?";
+"yes" = "Yes";
+"edit" = "Edit";
+"ok" = "OK";
+"no.connectivity" = "No Connectivity";
+"no.connectivity.description" = "An internet connection is required to complete this action. Please check your connection and try again.";
+"activate.account" = "Activate your account";
+"sent.code.phone" = "We've sent a code by SMS to phone number";
+"wrong.number" = "Wrong number?";
+"6.digit.code" = "Your 6-digit code";
+"resend.sms" = "Resend SMS";
+"activate.via.call" = "Activate via call";
