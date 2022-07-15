@@ -10,7 +10,7 @@ import UserNotifications
 
 struct SplashView: View {
     //MARK: vars
-    @State private var move = true
+    @State private var move = false
     
     //MARK: body
     var body: some View {
@@ -33,16 +33,16 @@ struct SplashView: View {
                                 .resizable()
                                 .frame(width: 120, height: 115, alignment: .center)
                                 .padding(.top, 59)
-                                .scaleEffect(move ? 0 : 1)
-                                .offset(x: move ? -50 : 0, y: move ? 50 : 0)
+                                .scaleEffect(move ? 1 : 0)
+                                .offset(x: move ? 0 : -50, y: move ? 0 : 50)
                                 .animation(.easeIn(duration: 0.5).repeatCount(1, autoreverses: false), value: move)
                             
                             Image("viber.splash.logo.phone")
                                 .resizable()
                                 .frame(width: 105, height: 115, alignment: .center)
                                 .padding(.top, 50)
-                                .scaleEffect(move ? 0 : 1)
-                                .offset(x: move ? -50 : 0, y: move ? 50 : 0)
+                                .scaleEffect(move ? 1 : 0)
+                                .offset(x: move ? 0 : -50, y: move ? 0 : 50)
                                 .animation(.easeIn(duration: 0.4).repeatCount(1, autoreverses: false).delay(0.5), value: move)
                             
                             Image("viber.splash.logo.line1")
@@ -50,8 +50,8 @@ struct SplashView: View {
                                 .frame(width: 105, height: 115, alignment: .center)
                                 .padding(.top, 35)
                                 .padding(.leading, 12)
-                                .scaleEffect(move ? 0 : 1)
-                                .offset(x: move ? -50 : 0, y: move ? 50 : 0)
+                                .scaleEffect(move ? 1 : 0)
+                                .offset(x: move ? 0 : -50, y: move ? 0 : 50)
                                 .animation(.easeIn(duration: 0.4).repeatCount(1, autoreverses: false).delay(0.7), value: move)
                             
                             Image("viber.splash.logo.line2")
@@ -59,8 +59,8 @@ struct SplashView: View {
                                 .frame(width: 105, height: 115, alignment: .center)
                                 .padding(.top, 28)
                                 .padding(.leading, 22)
-                                .scaleEffect(move ? 0 : 1)
-                                .offset(x: move ? -50 : 0, y: move ? 50 : 0)
+                                .scaleEffect(move ? 1 : 0)
+                                .offset(x: move ? 0 : -50, y: move ? 0 : 50)
                                 .animation(.easeIn(duration: 0.5).repeatCount(1, autoreverses: false).delay(0.8), value: move)
                             
                             Image("viber.splash.logo.line3")
@@ -68,8 +68,8 @@ struct SplashView: View {
                                 .frame(width: 105, height: 115, alignment: .center)
                                 .padding(.top, 22)
                                 .padding(.leading, 28)
-                                .scaleEffect(move ? 0 : 1)
-                                .offset(x: move ? -50 : 0, y: move ? 50 : 0)
+                                .scaleEffect(move ? 1 : 0)
+                                .offset(x: move ? 0 : -50, y: move ? 0 : 50)
                                 .animation(.easeIn(duration: 0.6).repeatCount(1, autoreverses: false).delay(0.9), value: move)
                         }
                         
