@@ -4,9 +4,7 @@
 //
 //  Created by kenagt on 15. 7. 2022..
 //
-import Foundation
 import SwiftUI
-import UserNotifications
 
 struct SplashView: View {
     //MARK: vars
